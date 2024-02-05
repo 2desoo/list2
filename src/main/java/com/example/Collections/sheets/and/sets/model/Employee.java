@@ -3,7 +3,7 @@ package com.example.Collections.sheets.and.sets.model;
 import java.util.Objects;
 
 public class Employee {
-    private final String firstName;
+    private final String  firstName;
     private final String lastName;
 
     public Employee(String firstName, String lastName) {
