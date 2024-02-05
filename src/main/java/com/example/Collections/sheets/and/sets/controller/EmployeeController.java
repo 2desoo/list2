@@ -23,7 +23,7 @@ public class EmployeeController {
 
     @ExceptionHandler(EmployeeNotFoundException.class)
     public ResponseEntity<String> messageNotFound() {
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Сотрудник не найден");
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Сотрудник не найден.");
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
